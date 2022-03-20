@@ -30,16 +30,14 @@ The execution time of the original All Stock Analysis for 2018 data was .875 sec
 Advantages and Disadvantages of Refactoring code
 
 According to feedback on Stackflow[^1], an obvious reason for refactoring code is that the code runs faster, which can have financial implications (time is money).  
-Refactoring often fixes bugs and make the code better by using the latest coding techniques.[^2]   Some coders believe the refactoring code is just part of coding "health", i.e., it shold be done
-periodically as part of maintaining the code. 
+Refactoring often fixes bugs and make the code better by using the latest coding techniques.[^2]   Some coders believe the refactoring code is just part of coding "health", i.e., it shold be done periodically as part of maintaining the code. 
 
 Although refactoring code should result in faster run times, the benefit to a user may not be obvious. If funding or finding time  to perform refactoring code are issues,
 the pros (benefits) of refactoring code greatly exceed the cons. Also, refactoring of a large code could introduce more opportunities to introduce errors. 
 
-How do the pros and cons apply to refactoring the original VBA script 
+How do the pros and cons apply to refactoring the original VBA script ?
 
-In the case of the stock analysis, the refactored code did run faster. My first attempt to refactor resulted in additional errors that I did not encounter with the original code.
-I was able to go back and correct the error; however, this took more time and effort.  The pop up box with the run time tells the user how long it took to run the program, but aside from this,the average user problably wouldn't be able to tel how the code was improved.  
+In the case of the stock analysis, the refactored code did run faster. My first attempt to refactor resulted in additional errors that I did not encounter with the original code.  I was able to go back and correct the error; however, this took more time and effort.  The pop up box with the run time tells the user how long it took to run the program, but aside from this,the average user problably wouldn't be able to tel how the code was improved.  
 
 
 [^1] https://stackoverflow.com/questions/43983284/what-are-the-advantages-and-disadvantages-of-refactoring-code-smell-in-software
